@@ -15,7 +15,7 @@ const LIGHT_DISTANCE = 20; // how close match needs to be to light candles
 canvas.width = WEBCAM_WIDTH;
 canvas.height = WEBCAM_HEIGHT;
 
-// Track hand position
+//track hand position
 let handPosition = { x: 0.5, y: 0.5 };
 let isHandDetected = false;
 
@@ -139,7 +139,7 @@ const CONFETTI_SYMBOLS = [
   "✿",
   "❀",
   "🌸",
-  "🌹"
+  "🌹",
   "💝",
   "💖",
   "🎀",
